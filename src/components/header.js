@@ -10,6 +10,7 @@ const Header = () => {
               <NavLink  className="p-2" to="/" >Home</NavLink> -
               <NavLink  className="p-2" to="/purecomp" >PureComp</NavLink> -
               <NavLink  className="p-2" to="/adjel" >Adjel</NavLink> -
+              <NavLink  className="p-2" to="/profile" >Profile</NavLink> -
             </nav>
           </div>
         </header>
