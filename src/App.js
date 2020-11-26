@@ -7,6 +7,7 @@ import PureComp from './components/pureComp';
 import PureCompF from './components/pureCompF';
 import Adjel from './components/adjel';
 import Profile from './components/profile';
+import User from './components/user'
 
 const App = ()=> {
   return (
@@ -14,6 +15,7 @@ const App = ()=> {
         <Header/>
         <div className="container">
           <Switch>
+            <Route path="/user" component={User}/>
             <Route path="/profile" component={Profile}/>
             <Route path="/adjel" component={Adjel}/>
             <Route path="/purecomp" component={PureComp}/>
